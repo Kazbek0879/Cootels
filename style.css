@@ -1,0 +1,926 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,
+html{height:100%}
+body{line-height:1}
+
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+
+
+main{width: 100%; height: 100%;position: relative;}
+header{width: 1440px;height: 120px;position: absolute;}
+
+a{text-decoration: none;}
+.Cootels{position: absolute;width: 123px;height: 39px;font-family: "Montserrat",Semi Bold;font-weight: 600;font-size: 32px;
+line-height: 39px;color:rgba(25, 34, 82, 1);margin-left: 120px;margin-top: 46px; ;
+}
+
+.Rooms{position: absolute;font-family: 'Inter',Medium;font-weight: 500;font-style: 16px;line-height: 19px;
+color:rgba(25, 34, 82, 1);margin-top: 56px;margin-left: 586px;
+}
+
+.Reservation{position: absolute;font-family: 'Inter',Medium;font-weight: 500;font-style: 16px;line-height: 19px;
+    color:rgba(25, 34, 82, 1);margin-top: 56px;margin-left: 671px;}
+
+.Contacs{position: absolute;font-family: 'Inter',Medium;font-weight: 500;font-style: 16px;line-height: 19px;
+    color:rgba(25, 34, 82, 1);margin-top: 56px;margin-left: 795px;}
+
+.Get{width: 121px;height: 47px;position: absolute;background-color:rgba(14, 23, 52, 1);margin-left: 1199px;
+margin-top: 37px;border-radius: 4px;}
+
+.Get-get{position: absolute;font-family: 'Inter',Medium;font-size: 16px;line-height: 19px;color: #ffffff;padding-top:14px;
+padding-left: 16px;}
+
+.Nat{width: 1440px;height: 845px;position: absolute;}
+
+.Nature{position: absolute;font-family: "Montserrat",Bold;font-weight: 600;font-size: 48px;line-height: 72px;
+color:rgba(25, 34, 82, 1);margin-top:335px;margin-left: 121px;width: 587px;}
+
+.N-One{position: absolute;font-family: "Inter",Regular;font-weight: 400;font-size: 18px;line-height: 27px;
+color:rgba(132, 143, 172, 1);margin-top:503px;margin-left: 121px;width: 485px;height: 81px;}
+
+.N-Res{position: absolute;width: 156px;height: 51px;background-color:rgba(14, 23, 52, 1);margin-top: 616px;margin-left: 121px;
+border-radius: 4px;}
+
+.N-Reservation{position: static;font-family: 'Inter',Medium;font-weight: 500;font-size:16px;line-height: 19px;color: #ffffff;
+margin-top: 16px;margin-left: 32px;}
+
+
+.N-img1{position: absolute;margin-left: 732px;margin-top: 200px;border-radius: 4px;}
+
+.N-img2{position: absolute;border-radius: 4px;margin-top: 281px;margin-left: 936px;}
+
+.N-img3{position: absolute;margin-top: 200px;margin-left: 1140px;border-radius: 4px;}
+
+
+.Coz{width: 1440px;height: 736px;position: absolute;}
+
+.C-img1{position: absolute;width: 384px;height: 576px;margin-top: 1045px;margin-left: 120px;}
+
+.Cozy{position: absolute;font-family: 'Montserrat',Bold;font-weight: 600;line-height: 54px;color:rgba(25, 34, 82, 1);
+margin-top: 1150px;margin-left: 630px;font-size: 36px; width: 690px;}
+
+.C-Our{position: absolute;font-family: 'Inter',Regular;font-weight: 400;font-size: 18px;line-height: 27px;
+    color:rgba(132, 143, 172, 1);margin-top: 1282px;margin-left: 630px; width: 584px;}
+
+.C-Coot{position: absolute;font-family: "Inter",Regular;font-weight: 400;font-size: 18px;line-height: 27px;
+color:rgba(132, 143, 172, 1);margin-top:1379px;margin-left: 630px; width: 584px;}
+
+.C-L1{position: absolute;width: 151px;height: 51px;margin-left: 630px;margin-top: 1545px;background-color:rgba(14, 23, 52, 1);border-radius: 4px;}
+
+
+.C-Learn1{color: #ffffff;position:static;font-family: "Inter",Medium;font-size: 16px;font-weight: 500;line-height: 19px;
+margin-top: 16px;margin-left: 32px;}
+
+
+.Cabin{position: absolute;width: 1440px;height: 960px;}
+
+.C-Cabin{position:absolute;font-family: "Montserrat",Bold;font-weight: 600;font-size: 36px;line-height: 54px;color:rgba(25, 34, 82, 1);
+margin-top: 1894px;margin-left: 120px;}
+
+.Cab-D{position: absolute;font-family: "Inter",Regular;font-weight: 400;font-size:18px;line-height: 27px;color:rgba(132, 143, 172, 1);
+margin-top: 1972px;margin-left: 120px; width: 584px;}
+
+.C-L2{position: absolute;width: 151px;height: 51px;margin-left: 450px;margin-top: 2080px;background-color:rgba(14, 23, 52, 1);border-radius: 4px;}
+
+.C-Learn2{color: #ffffff;position:static;font-family: "Inter",Medium;font-size: 16px;font-weight: 500;line-height: 19px;
+    margin-top: 16px;margin-left: 32px;}
+
+.Cab-img1{position: absolute;border-radius: 4px;margin-top:1781px;margin-left: 830px;width: 384px;height: 384px;}
+
+.Cab-img2{position: absolute;border-radius: 4px;width: 384px;height: 384px;margin-left: 120px;margin-top: 2197px;}
+
+.Cab-100{position: absolute;font-family: "Montserrat",Bold;font-weight: 600;font-size: 36px;line-height: 54px;color: rgba(25, 34, 82, 1);
+margin-top: 2310px;margin-left: 630px;letter-spacing: -1%;}
+
+.Cab-We{position: absolute;font-family: "Inter",Regular;font-weight: 400;font-size: 18px;line-height: 27px;
+color:rgba(132, 143, 172, 1); margin-top:2388px ;margin-left:630px ; width: 584px;}
+
+.C-L3{position: absolute;width: 151px;height: 51px;margin-left: 940px;margin-top: 2500px;background-color:rgba(14, 23, 52, 1);border-radius: 4px;}
+
+.C-Learn3{color: #ffffff;position:static;font-family: "Inter",Medium;font-size: 16px;font-weight: 500;line-height: 19px;
+    margin-top: 16px;margin-left: 32px;}
+
+.Many{position: absolute;width: 1440px;height: 1176px;}
+
+.M-Many{position: absolute;font-family: "Montserrat",Bold;font-weight: 600;font-size: 36px;line-height: 54px;text-align: center;
+color:rgba(25, 34, 82, 1);margin-top: 2740px;margin-left: 497px;}
+
+.M-There{position: absolute;font-family: "Inter",Regular;font-weight: 400;font-size: 18px;line-height: 27px;text-align: center;
+color:rgba(132, 143, 172, 1);margin-left: 426px;margin-top: 2819px;}
+
+.M-Exp{position: absolute;width: 165px;height: 51px;background-color:rgba(14, 23, 52, 1);margin-top:2905px;
+margin-left: 638px;border-radius: 4px;}
+
+.Explore{position: static;font-family: "Inter",Regular;font-weight: 500;font-size: 16px;line-height: 19px;color: #ffffff;
+margin-top: 16px;margin-left: 32px;}
+
+.M-img1{position: absolute;border-radius: 4px;margin-top:3044px;margin-left: 120px;}
+
+.M-Single{position: absolute;font-weight: 600;font-size: 24px;line-height: 36px;font-family: "Montserrat",Bold;
+margin-top:3565px;margin-left:120px;}
+
+.M-Best{position: absolute;font-family: "Inter",Regular;font-weight: 400;font-size: 18px;line-height: 27px;color:rgba(132, 143, 172, 1);
+margin-top:3617px;margin-left:120px; width: 384px;}
+
+.M-Learn1{position: absolute;font-family: "Inter",Regular;font-weight: 400;line-height: 27px;color:rgba(66, 79, 123, 1);
+margin-left: 120px;margin-top:3740px;}
+
+
+.M-img2{position: absolute;border-radius: 4px;margin-top:3044px;margin-left: 528px;}
+
+.M-Double{position: absolute;font-weight: 600;font-size: 24px;line-height: 36px;font-family: "Montserrat",Bold;
+    margin-top:3565px;margin-left:528px;}
+
+.M-Best2{position: absolute;font-family: "Inter",Regular;font-weight: 400;font-size: 18px;line-height: 27px;color:rgba(132, 143, 172, 1);
+margin-top:3617px;margin-left:528px; width: 384px;}
+
+.M-Learn2{position: absolute;font-family: "Inter",Regular;font-weight: 400;line-height: 27px;color:rgba(66, 79, 123, 1);
+    margin-left: 528px;margin-top:3740px;}
+
+
+.M-img3{position: absolute;border-radius: 4px;margin-top:3044px;margin-left: 936px;}
+
+.M-Cootage{position: absolute;font-weight: 600;font-size: 24px;line-height: 36px;font-family: "Montserrat",Bold;
+    margin-top:3565px;margin-left:936px;}
+
+.M-Best3{position: absolute;font-family: "Inter",Regular;font-weight: 400;font-size: 18px;line-height: 27px;color:rgba(132, 143, 172, 1);
+        margin-top:3617px;margin-left:936px; width: 384px;}
+
+.M-Learn3{position: absolute;font-family: "Inter",Regular;font-weight: 400;line-height: 27px;color:rgba(66, 79, 123, 1);
+margin-left: 936px;margin-top:3740px;}
+
+
+.M-V1{margin-left: 230px;margin-top:3747.33px;position: absolute;}
+.M-V2{margin-left: 638px;margin-top:3747.33px;position: absolute;}
+.M-V3{margin-left: 1046px;margin-top:3747.33px;position: absolute;}
+
+
+
+.Start{position: absolute;width: 1440px;height: 596px;}
+
+.S-Start{position: absolute;font-family: "Inter",Medium;font-weight: 500;font-size: 16px;
+line-height: 24px;color: rgba(66, 79, 123, 1);margin-top:3999px;margin-left: 120px;}
+
+.S-How{position: absolute;font-family: "Montserrat",Bold;font-weight: 600;font-size: 36px;line-height: 54px;
+margin-top:4035px;margin-left: 120px;color:rgba(25, 34, 82, 1) ;}
+
+.S-you{position: absolute;font-family: 'Inter';font-weight: 400;font-size: 18px;line-height: 27px;
+color:rgba(132, 143, 172, 1);margin-top:4113px ;margin-left: 120px;}
+
+.S-Con{position: absolute;background-color:rgba(14, 23, 52, 1);width: 148px;height: 51px;margin-top:4226px;
+margin-left: 120px;border-radius: 4px;}
+
+.S-Contact{position: static;font-family: "Inter",Medium;font-weight: 500;font-size: 16px;line-height: 19px;
+margin-top: 16px;margin-left: 32px;color: #ffffff;}
+
+.S-Exp{position: absolute;font-family: "Inter",Medium;font-weight: 500;font-size: 16px;line-height: 19px;
+margin-left: 292px;margin-top: 4240px;color:rgba(14, 23, 52, 1);}
+
+.S-Choose{position: absolute;font-family: "Montserrat",Bold;font-weight: 600;font-size: 24px;line-height: 36px;
+margin-top:3949px;margin-left: 768px;color:rgba(66, 79, 123, 1);}
+
+.S-Check{position: absolute;font-family: "Montserrat",Bold;font-weight: 600;font-size: 24px;line-height: 36px;
+margin-top:4079px;margin-left: 768px;color:rgba(66, 79, 123, 1);}
+
+.S-Enjoy{position: absolute;font-family: "Montserrat",Bold;font-weight: 600;font-size: 24px;line-height: 36px;
+margin-top:4220px;margin-left: 768px;color:rgba(66, 79, 123, 1);}
+
+.Hear{position: absolute;width: 1440px;height: 627px;}
+
+.H-Hear{position: absolute;font-family: "Montserrat",Bold;font-weight: 600;font-size: 36px;line-height: 54px;
+color:rgba(25, 34, 82, 1);margin-top:4457px;margin-left: 405px;}
+
+.H-img1{position: absolute;margin-left: 660px;margin-top: 4573px;}
+
+.H-Great{position: absolute;font-family: "Inter",Regular;font-weight: 400;font-size: 18px;line-height: 27px;
+color:rgba(132, 143, 172, 1);margin-top:4737px;margin-left: 324px; width: 793px;}
+
+.H-Kirana{position: absolute;font-family: "Inter",Medium;font-weight: 500;font-size: 20px;line-height: 30px;
+color: rgba(25, 34, 82, 1);margin-top: 4858px;margin-left: 647px;}
+
+
+footer{position: absolute;width:100%;height: 444px;background-color:rgba(11, 38, 90, 1);bottom: 0px;}
+
+
+.hed-Cootels{position: absolute;font-family: "Montserrat",Bold;font-weight: 700;font-size: 32px;line-height: 39px;color: #ffffff;
+margin-top: 120px;width: 124px;height: 39px;margin-left: 120px;}
+
+.F-Your{position: absolute;font-family: "Inter",Regular;font-weight: 400;font-size:16px;
+line-height: 28px;color:rgb(200, 200, 200);margin-top: 172px;margin-left: 120px;}
+
+.hed-Rooms{position: absolute;font-weight: 700;font-size: 16px;line-height: 19px;color: rgba(255, 255, 255, 1);
+margin-top: 120px;margin-left: 705px;font-family: "Inter",Bold;}
+
+.Ro1{position: absolute;font-family: "Inter",Regular;font-weight: 400;font-size:16px;line-height: 19px;
+color:rgba(217, 219, 222, 1);margin-top:163px;margin-left: 705px;}
+
+.Ro2{position: absolute;font-family: "Inter",Regular;font-weight: 400;font-size:16px;line-height: 19px;
+color:rgba(217, 219, 222, 1);margin-top:205px;margin-left: 705px;}
+    
+.Ro3{position: absolute;font-family: "Inter",Regular;font-weight: 400;font-size:16px;line-height: 19px;
+color:rgba(217, 219, 222, 1);margin-top:249px;margin-left: 705px;}
+
+.Ro4{position: absolute;font-family: "Inter",Regular;font-weight: 400;font-size:16px;line-height: 19px;
+color:rgba(217, 219, 222, 1);margin-top:292px;margin-left: 705px;}
+
+
+.Reser{position: absolute;font-weight: 700;font-size: 16px;line-height: 19px;color: rgba(255, 255, 255, 1);
+margin-top: 120px;margin-left: 912px;font-family: "Inter",Bold;}
+
+.Re1{position: absolute;font-family: "Inter",Regular;font-weight: 400;font-size:16px;line-height: 19px;
+color:rgba(217, 219, 222, 1);margin-top:163px;margin-left: 912px;}
+
+.Re2{position: absolute;font-family: "Inter",Regular;font-weight: 400;font-size:16px;line-height: 19px;
+color:rgba(217, 219, 222, 1);margin-top:206px;margin-left: 912px;}
+
+
+.Cont{position: absolute;font-weight: 700;font-size: 16px;line-height: 19px;color: rgba(255, 255, 255, 1);
+margin-top: 120px;margin-left: 1159px;font-family: "Inter",Bold;}
+
+.C1{position: absolute;font-family: "Inter",Regular;font-weight: 400;font-size:16px;line-height: 19px;
+color:rgba(217, 219, 222, 1);margin-top:163px;margin-left: 1159px;}
+
+.C2{position: absolute;font-family: "Inter",Regular;font-weight: 400;font-size:16px;line-height: 19px;
+color:rgba(217, 219, 222, 1);margin-top:206px;margin-left: 1159px;}
+
+.C3{position: absolute;font-family: "Inter",Regular;font-weight: 400;font-size:16px;line-height: 19px;
+color:rgba(217, 219, 222, 1);margin-top:249px;margin-left: 1159px;}
+
+.btn-menu{display: none;} 
+.hidden-menu{display: none;}
+input {display: none;}
+
+
+    
+@media screen and (max-device-width:2560px){
+
+.main { width: 100%;height: 5500px;}
+       body{height: 5500px;}
+
+}
+    
+
+
+@media screen and (max-device-width:1600px)
+    {
+        .main { width: 100%;height: 5500px;}
+       body{height: 5500px;}
+}
+   
+    
+   
+
+
+@media screen and (max-device-width:1199px)
+
+   {  
+       .main { width: 100%;height: 5500px;}
+       body{height: 5500px;}
+       
+       header{width: 100%;height: 120px;position: absolute;}
+       footer{width: 100%;position: absolute;margin: 0 auto;}
+
+       .Nat{width: 100%;}
+       .Coz{width: 100%;}
+       .Cabin{width: 100%;}
+       .Many{width: 100%;}
+       .Start{width: 100%;}
+       .Hear{width: 100%;}
+    
+    .Get{margin-left: 895px;}
+    
+    .Nature{width: 430px;margin-left: 30px;}
+    
+    .N-One{margin-top:560px;width:410px;margin-left: 30px;}
+    
+    .N-Res{margin-top: 690px;}
+    
+    
+    .N-img1{margin-left:580px;width: 12%;}
+    
+    .N-img2{margin-left: 720px;width: 12%;margin-top: 260px;}
+    
+    .N-img3{margin-left: 860px; width: 12%;}
+
+    .Cozy{width: 410px;}
+
+    .C-Our{width: 400px;margin-top: 1310px;}
+
+    .C-Coot{width: 400px;margin-top: 1430px;}
+
+    .C-L1{margin-top:1540px ;}
+
+    .C-L2{margin-top:2120px;margin-left: 270px;}
+
+    .C-L3{margin-top:2540px ;margin-left: 800px;}
+
+    .Cab-D{width: 302px;}
+
+    .Cab-img1{margin-left: 600px;}
+
+    .Cab-We{width:384px ;}
+
+    .Many{margin-left: -100px; width: 1024px;}
+    
+
+    .M-img1{margin-top: 3044px;width: 33%; margin-left: 110px;}
+    .M-img2{margin-top: 3044px;width: 33%; margin-left: 450px;}
+    .M-img3{margin-top: 3044px;width: 33%;margin-left: 790px; }
+
+    .M-Best{width: 33%;width: 300px; }
+    .M-Best2{width: 33%;margin-left: 480px;width:300px ;}
+    .M-Best3{width: 33%;margin-left: 810px;width: 300px;}
+    
+    .S-Choose{margin-left: 670px;}
+    .S-Check{margin-left:  670px;}
+    .S-Enjoy{margin-left: 670px;}
+
+    .H-Hear{margin-left: 380px;}
+    .H-Great{width: 690px;}
+
+    .hed-Rooms{margin-left: 400px;}
+    .Ro1{margin-left: 400px;}
+    .Ro2{margin-left: 400px;}
+    .Ro3{margin-left: 400px;}
+    .Ro4{margin-left: 400px;}
+
+    .Reser{margin-left: 700px;}
+    .Re1{margin-left: 700px;}
+    .Re2{margin-left: 700px;}
+
+    .Cont{margin-left: 900px;}
+    .C1{margin-left: 900px;}
+    .C2{margin-left: 900px;}
+    .C3{margin-left: 900px;}
+    footer{width: 100%;}
+    
+    .btn-menu{display: none;}
+    
+}
+
+
+
+@media screen and (max-device-width:991px) {
+    
+    .main { width: 100%;height: 5000px;}
+    body{height: 5000px;}
+    
+    .Coz{width: 100%;}
+    .Cabin{width: 100%;}
+    .Many{width: 100%;}
+    .Start{width: 100%;}
+    .Hear{width: 100%;}
+
+    header{width: 100%;height: 100%;overflow: auto;margin-left: 0 auto;}
+
+    .Cootels{margin-left: 100px;}
+    .Rooms{margin-left: 300px;}
+    .Reservation{margin-left: 400px;}
+    .Contacs{margin-left: 530px;}
+    .Get{margin-left: 620px;}
+
+    .N-img1{margin-left: 460px;margin-top:120px ;}
+    .N-img2{margin-left: 560px;margin-top: 170px;}
+    .N-img3{margin-left: 660px;margin-top:120px ;}
+
+    .Nature{margin-top:150px;margin-left: 30px;}
+    .N-One{margin-top:375px;margin-left: 30px;}
+    .N-Res{margin-top: 495px;margin-left: 300px;}
+
+    .C-img1{margin-top:600px;margin-left:30px ;}
+    .Cozy{width: 300px; margin-left: 450px;margin-top: 580px;}
+    .C-Our{width: 300px;margin-left: 450px;margin-top: 790px;}
+    .C-Coot{width: 300px; margin-left: 450px;margin-top:940px;}
+    .C-L1{margin-top: 1060px;margin-left: 500px;}
+
+    .C-Cabin{margin-left: 70px;margin-top: 1200px;}
+    .Cab-D{margin-left: 70px;margin-top: 1260px;}
+    .C-L2{margin-top: 1460px;margin-left: 170px;}
+    .Cab-img1{ margin-left: 380px;margin-top: 1200px;}
+    .Cab-img2{margin-left: 30px;margin-top: 1600px;}
+    .Cab-100{margin-left: 421px;font-size: 33px;letter-spacing: 1px;margin-top: 1600px;}
+    .Cab-We{margin-left: 431px;width: 330px;margin-top: 1680px;}
+    .C-L3{margin-left: 600px;margin-top: 1820px;}
+
+    .M-Many{margin-left: 320px;margin-top: 2050px;}
+    .M-There{margin-left: 290px;margin-top: 2170px;}
+    .M-Exp{margin-left: 450px;margin-top: 2300px;}
+
+    .M-img1{margin-top: 2400px;width: 35%;margin-left: 120px;}
+    .M-img2{margin-top: 2400px;width: 35%;margin-left: 490px;}
+    .M-img3{margin-top: 3100px; margin-left: 220px;}
+
+    .M-Single{margin-top:2780px;margin-left: 170px;}
+    .M-Best{margin-top: 2820px;margin-left:150px;}
+    .M-Learn1{margin-top: 2940px;margin-left: 160px;}
+    .M-V1{margin-top: 2946px;margin-left: 270px;}
+
+    .M-Double{margin-top: 2780px;margin-left: 550px;}
+    .M-Best2{margin-top: 2820px;margin-left: 520px;}
+    .M-Learn2{margin-top: 2940px;}
+    .M-V2{margin-top:2946px;}
+
+    .M-Cootage{margin-top: 3120px;margin-left: 590px;}
+    .M-Best3{margin-top: 3180px;margin-left: 570px;}
+    .M-Learn3{margin-top: 3320px;margin-left: 570px;}
+    .M-V3{margin-top: 3326px;margin-left: 670px;}
+
+    .Start{margin-top: -400px;margin-left:-70px ;}
+    .S-Choose{margin-left: 560px;font-size: 22px;margin-top: 4000px;}
+    .S-Check{margin-left: 560px;font-size: 22px;}
+    .S-Enjoy{margin-left: 560px;font-size: 22px;margin-top:4150px ;}
+    .S-How{font-size: 30px;}
+
+    .H-Hear{margin-left: 100px;margin-top: 4000px;}
+    .H-img1{margin-left: 360px;margin-top: 4150px;}
+    .H-Great{margin-left: 120px;margin-top: 4310px;width: 600px;}
+    .H-Kirana{margin-left: 580px;margin-top: 4420px;}
+
+    .Reser{margin-left: 530px;}
+    .Re1{margin-left: 530px;}
+    .Re2{margin-left: 530px;}
+
+    .Cont{margin-left: 670px;}
+    .C1{margin-left: 670px;}
+    .C2{margin-left: 670px;}
+    .C3{margin-left: 665px;}
+
+    
+    .btn-menu{display: none;}
+    
+        
+    }
+   
+
+
+@media  screen and (max-device-width:767px) {
+    
+        
+
+
+
+
+
+        
+  
+    
+}
+    
+
+
+@media screen and (max-device-width:575px) {
+    .main {
+        width: 100%;
+        padding: 0 15px;
+        width: 100%;
+        height: 5000px;
+    }
+    body{height: 5000px;}
+
+    
+    
+    
+    .Coz{width: 100%;}
+    .Cabin{width: 100%;}
+    .Many{width: 100%;}
+    .Start{width: 100%;}
+    .Hear{width: 100%;}
+
+    header{width: 100%;height: 100%;overflow: auto;margin-left: 0 auto;}
+
+    .main {width: 540px;  height: 100%;}
+
+    .Cootels{margin-left: 20px; }
+    .Rooms{margin-left: 170px;display: none;}
+    .Reservation{margin-left: 250px;display: none;}
+    .Contacs{margin-left: 350px;display: none;}
+    .Get{display: none;}
+    .btn-menu{display: block;}
+
+
+    .hidden-menu {
+        display: block;
+        position: absolute;
+        list-style:none;
+        padding-top: 30px;
+        margin: 0;
+        box-sizing: border-box;
+        width: 180px;
+        background-color: rgb(237, 237, 237);
+        height: 200px;
+        border-radius: 4px;
+        top: 0px;
+        left: -11110px;
+        transition: left .1s;
+        z-index: 3;
+        line-height: 30px;
+        font-weight: 500px;
+        font-family: "Inter",Medium ;
+        text-transform: uppercase;
+        border: rgba(25, 34, 82, 1) solid  2px;
+        padding-left: 10px;
+        
+      }
+      a{font-weight: normal;font-size: 20px;line-height:27px ;    font-family: "Montserrat",Bold;}
+       a:visited{color: rgba(25, 34, 82, 1);}
+       a{color:black ;}
+
+      .hidden-menu-ticker {
+        display: none;
+      }
+
+      .btn-menu {
+        color: rgb(255, 0, 0);
+        background-color: rgba(25, 34, 82, 1);
+        padding: 5px;
+        position: absolute;
+        top: 45px;
+        left: 385px;
+        cursor: pointer;
+        transition: left .23s;
+        z-index: 2;
+        width: 25px;
+        border-radius: 4px;
+        
+      }
+      .btn-menu span {
+        display: block;
+        height: 5px;
+        background-color: rgb(255, 255, 255);
+        margin: 5px 0 0;
+        transition: all .1s linear .23s;
+        position: relative;
+        border-radius: 4px;
+      }
+      
+        .btn-menu span.first {
+        margin-top: 0px; 
+    }
+
+        .hidden-menu-ticker:checked ~ .btn-menu {right: 130px;}
+        
+        
+
+        .hidden-menu-ticker:checked ~ .hidden-menu {left: 0;}
+    
+        
+    
+        .N-img1{width: 30%;margin-left: 5px;}
+        .N-img2{width: 30%;margin-left: 145px;margin-top: 187px;}
+        .N-img3{width: 30%;margin-left: 285px;}
+   
+        .Nature{margin-left: 20px;font-size: 40px;line-height: 50px;margin-top: 620px;}
+        .N-One{margin-left: 20px;margin-top:800px;position:absolute;width: 400px;}
+        .N-Res{margin-left:250px;margin-top: 950px;}
+
+        .C-img1{margin-top: 1050px;height: 70%;}
+        .Cozy{margin-left: 40px;margin-top: 1600px;width: 80%;}
+        .C-Our{margin-left: 20px;margin-top: 1800px;width:90% ;}
+        .C-Coot{margin-left: 20px;margin-top: 1920px;width:90% ;}
+        .C-L1{margin-left: 250px;margin-top: 2030px;}
+
+        .C-Cabin{margin-top: 2600px;}
+        .Cab-img1{margin-left: 20px;margin-top: 2150px;}
+        .Cab-D{margin-left: 11px;margin-top: 2670px;width: 90%;}
+        .Cab-img2{margin-left: 10px;margin-top: 2900px;}
+        .Cab-100{margin-left: 25px;margin-top: 3300px;}
+        .Cab-We{margin-top: 3370px;margin-left: 20px;width: 90%;}
+        .C-L2{margin-left: 250px;margin-top: 2800px;}
+        .C-L3{margin-left: 250px;margin-top: 3480px;}
+
+        .M-Many{margin-left: 110px;margin-top: 3600px;font-size: 43px;width: 90%;}
+        .M-There{margin-left:110px;margin-top: 3710px;width: 90%;font-size: 24px;}
+        .M-Exp{margin-left: 240px;margin-top: 3880px;}
+
+        .M-img1{margin-left: 110px;margin-top: 4000px;width: 95%;}
+        .M-Single{margin-left: 215px;margin-top: 4570px;}
+        .M-Best{margin-left: 125px;margin-top: 4620px;width: 90%;}
+        .M-Learn1{margin-left: 145px;margin-top: 4710px;}
+        .M-V1{margin-left: 250px;margin-top: 4716px;}
+
+        .M-img2{margin-top: 4800px;margin-left: 125px;width: 95%;}
+        .M-Double{margin-top: 5350px;margin-left: 230px;}
+        .M-Best2{margin-top: 5400px;margin-left: 120px;width: 90%;}
+        .M-Learn2{margin-top: 5490px;margin-left: 140px;}
+        .M-V2{margin-top: 5495px;margin-left: 260px;}
+        
+        .M-img3{margin-left:110px;margin-top:5580px;width: 90%;}
+        .M-Cootage{margin-left: 225px;margin-top: 6100px;}
+        .M-Best3{margin-left: 110px;margin-top: 6150px;width:90% ;}
+        .M-Learn3{margin-left: 110px;margin-top: 6250px;}
+        .M-V3{margin-left: 220px;margin-top: 6257px;}
+
+        .S-Start{margin-left: 110px;margin-top:6750px;font-size: 25px;}
+        .S-How{margin-left: 110px;margin-top: 6790px;width: 90%;}
+        .S-you{margin-left: 110px;margin-top: 6850px;width: 90%;}
+        .S-Con{margin-left: 110px;margin-top: 6950px;}  
+        .S-Exp{margin-left: 275px;margin-top: 6960px;}
+
+        .S-Choose{margin-left: 150px;margin-top: 7020px;}
+        .S-Check{margin-left: 150px;margin-top: 7100px;}
+        .S-Enjoy{margin-left: 150px;margin-top: 7180px;}
+
+        .H-Hear{margin-left: 5px;margin-top: 6880px;font-size: 24px;width: 100%;}
+        .H-img1{margin-left: 170px;margin-top: 6980px;}
+        .H-Great{width: 90%;margin-top: 7150px;margin-left: 10px;}
+        .H-Kirana{margin-left: 260px;margin-top:7330px ;}
+
+        footer{margin-bottom:-3000px;width: 100%;}
+        .hed-Cootels{margin:30px ;position: absolute;}
+        .F-Your{margin:80px 10px;}
+
+        .hed-Rooms{margin-left:330px;margin-top:30px ;}
+        .Ro1{margin-left: 310px;margin-top: 60px;}
+        .Ro2{margin-left: 310px;margin-top: 90px;}
+        .Ro3{margin-left: 310px;margin-top: 120px;}
+        .Ro4{margin-left: 310px;margin-top: 150px;}
+
+        .Reser{margin-top: 220px;margin-left: 40px;}
+        .Re1{margin-top: 250px;margin-left: 40px;}
+        .Re2{margin-top: 280px;margin-left: 40px;}
+
+        .Cont{margin-left:320px;margin-top:220px;}
+        .C1{margin-left: 310px;margin-top: 250px;}
+        .C2{margin-left: 310px;margin-top: 280px;}
+        .C3{margin-left: 310px;margin-top: 310px;}
+}
+
+
+
+
+
+
+@media screen and (max-device-width:424px){
+    main{width: 320px;padding:0 15px;margin-left: 20%;height: 4800px;}
+    body{height: 5000px;width: 320px;}
+    .btn-menu{margin-left:-120px;}
+    header{width: 100%;height: 100%;overflow: auto;}
+
+    .Coz{width: 100%;}
+    .Cabin{width: 100%;}
+    .Many{width: 100%;}
+    .Start{width: 100%;}
+    .Hear{width: 100%;}
+    
+    .N-img1{width: 7%;margin-left: -10px;}
+    .N-img2{width: 7%;margin-left: 95px;margin-top: 175px;}
+    .N-img3{width: 7%;margin-left: 200px;}
+
+    .Nature{margin-left: -5px;font-size: 35px;line-height: 50px;margin-top: 620px;width: 330px;}
+    .N-One{margin-left: -10px;margin-top:800px;position:absolute;width: 310px;}
+    .N-Res{margin-left:140px;margin-top: 950px;}
+
+    .C-img1{margin-top: 1050px;width: 22%;margin-left:-13px ;}
+    .Cozy{margin-left: -10px;margin-top: 1600px;width: 25%;width: 330px;}
+    .C-Our{margin-left: -10px;margin-top: 1800px;width:23% ;}
+    .C-Coot{margin-left: -10px;margin-top: 1940px;width:22% ;}
+    .C-L1{margin-left: 150px;margin-top: 2060px;}
+
+    .C-Cabin{margin-top: 2200px;margin-left: 10px;}
+    .Cab-img1{margin-left: -10px;margin-top: 2450px;width:21.5% ;}
+    .Cab-D{margin-left: 5px;margin-top: 2270px;width: 21%;}
+    .Cab-img2{margin-left: -5px;margin-top: 3140px;width: 21%;}
+    .Cab-100{margin-left: -5px;margin-top: 2900px;font-size:29px ;}
+    .Cab-We{margin-top: 2970px;margin-left:-10px;width: 22%;}
+
+    .M-Many{margin-left: 90px;margin-top: 3610px;font-size: 33px;font-size: 26px;}
+    .M-There{margin-left:90px;margin-top: 3670px;width: 30%;}
+    .M-Exp{margin-left: 180px;margin-top: 3800px;}
+
+    .M-img1{margin-left: 90px;margin-top: 4000px;width: 30%;}
+    .M-Single{margin-left: 150px;margin-top: 4420px;}
+    .M-Best{margin-left: 95px;margin-top: 4470px;width: 32%;}
+    .M-Learn1{margin-left: 95px;margin-top: 4600px;}
+    .M-V1{margin-left: 200px;margin-top: 4605px;}
+
+    .M-img2{margin-top: 4800px;margin-left: 90px;width: 30%;}
+    .M-Double{margin-top: 5200px;margin-left: 155px;}
+    .M-Best2{margin-top: 5250px;margin-left: 95px;width: 30%;}
+    .M-Learn2{margin-top: 5370px;margin-left: 95px;}
+    .M-V2{margin-top: 5375px;margin-left: 200px;}
+    
+    .M-img3{margin-left:90px;margin-top:5550px;width: 30%;}
+    .M-Cootage{margin-left: 185px;margin-top: 5950px;}
+    .M-Best3{margin-left: 100px;margin-top: 6000px;width:30% ;}
+    .M-Learn3{margin-left: 95px;margin-top: 6120px;}
+    .M-V3{margin-left: 200px;margin-top: 6125px;}
+
+    .S-Start{margin-left: 95px;margin-top:6090px;}
+    .S-How{margin-left: 60px;margin-top: 6130px;font-size: 27px ;}
+    .S-you{margin-left: 57px;margin-top: 6180px;width:310px ;}
+    .S-Con{margin-left: 60px;margin-top: 6330px;}  
+    .S-Exp{margin-left: 228px;margin-top: 6340px;}
+
+    .S-Choose{margin-left: 60px;margin-top: 6500px;}
+    .S-Check{margin-left: 60px;margin-top: 6600px;}
+    .S-Enjoy{margin-left: 60px;margin-top: 6700px;}
+
+    .H-Hear{margin-left: -10px;margin-top: 6970px;font-size: 18px;}
+    .H-img1{margin-left: 110px;margin-top: 7050px;}
+    .H-Great{width: 22%;margin-top: 7190px;margin-left: -10px;}
+    .H-Kirana{margin-left: 150px;margin-top:7370px ;}
+
+    footer{margin-bottom: -2500px;width: 400px;margin-left:-15px ;}
+    .hed-Cootels{margin:30px ;position: absolute;}
+    .F-Your{margin:80px 10px;}
+
+    .hed-Rooms{margin-left:230px;margin-top:30px ;}
+    .Ro1{margin-left: 210px;margin-top: 60px;}
+    .Ro2{margin-left: 210px;margin-top: 90px;}
+    .Ro3{margin-left: 210px;margin-top: 120px;}
+    .Ro4{margin-left: 210px;margin-top: 150px;}
+
+    .Reser{margin-top: 220px;margin-left: 40px;}
+    .Re1{margin-top: 250px;margin-left: 40px;}
+    .Re2{margin-top: 280px;margin-left: 40px;}
+
+    .Cont{margin-left:220px;margin-top:220px;}
+    .C1{margin-left: 210px;margin-top: 250px;}
+    .C2{margin-left: 210px;margin-top: 280px;}
+    .C3{margin-left: 210px;margin-top: 310px;}
+
+
+}
+
+
+@media screen and (max-device-width:375px){
+    htnl{width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;}
+    .main {
+        width: 100%;
+        padding: 0 15px;
+        height: 4800px;
+        margin-left: -100px;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    body{height: 4800px;width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;}
+    .Coz{width: 100%;}
+    .Cabin{width: 100%;}
+    .Many{width: 100%;}
+    .Start{width: 100%;}
+    .Hear{width: 100%;}
+    header{width: 100%;height: 100%;overflow: auto;margin-left: -100px;padding-left:0 auto ;}
+
+   
+
+    .Cootels{margin-left: 25px; }
+    .Rooms{margin-left: 170px;display: none;}
+    .Reservation{margin-left: 250px;display: none;}
+    .Contacs{margin-left: 350px;display: none;}
+    .Get{display: none;}
+    .btn-menu{display: block;margin-left: -160px;}
+
+
+    .hidden-menu {
+        display: block;
+        position: absolute;
+        list-style:none;
+        padding-top: 30px;
+        margin: 0;
+        box-sizing: border-box;
+        width: 180px;
+        background-color: rgb(237, 237, 237);
+        height: 200px;
+        border-radius: 4px;
+        top: 0px;
+        left: -11110px;
+        transition: left .1s;
+        z-index: 3;
+        line-height: 30px;
+        font-weight: 500px;
+        font-family: "Inter",Medium ;
+        text-transform: uppercase;
+        border: rgba(25, 34, 82, 1) solid  2px;
+        padding-left: 10px;
+        
+      }
+      a{font-weight: normal;font-size: 20px;line-height:27px ;    font-family: "Montserrat",Bold;}
+       a:visited{color: rgba(25, 34, 82, 1);}
+       a{color:black ;}
+
+      .hidden-menu-ticker {
+        display: none;
+      }
+
+      .btn-menu {
+        color: rgb(255, 0, 0);
+        background-color: rgba(25, 34, 82, 1);
+        padding: 5px;
+        position: absolute;
+        top: 45px;
+        left: 455px;
+        cursor: pointer;
+        transition: left .23s;
+        z-index: 2;
+        width: 25px;
+        border-radius: 4px;
+        
+      }
+      .btn-menu span {
+        display: block;
+        height: 5px;
+        background-color: rgb(255, 255, 255);
+        margin: 5px 0 0;
+        transition: all .1s linear .23s;
+        position: relative;
+        border-radius: 4px;
+      }
+      
+        .btn-menu span.first {
+        margin-top: 0px; 
+    }
+
+        .hidden-menu-ticker:checked ~ .btn-menu {right: 130px;}
+        
+        
+
+        .hidden-menu-ticker:checked ~ .hidden-menu {left: 20px;}
+    
+        
+    
+        .N-img1{width: 27%;margin-left: -70px;}
+        .N-img2{width: 29%;margin-left: 30px;margin-top: 167px;}
+        .N-img3{width: 27%;margin-left: 140px;}
+   
+        .Nature{margin-left: -70px;font-size: 36px;line-height: 50px;margin-top: 620px;width: 90%;}
+        .N-One{margin-left: -70px;margin-top:800px;position:absolute;width: 400px;width: 90%;}
+        .N-Res{margin-left:80px;margin-top: 950px;}
+
+        .C-img1{margin-top: 1050px;height: 60%;width: 85%;left: -60px;}
+        .Cozy{margin-left: -70px;margin-top: 1530px;width: 90%;font-size: 23px;}
+        .C-Our{margin-left: -70px;margin-top: 1650px;width:90% ;}
+        .C-Coot{margin-left: -70px;margin-top: 1820px;width:90% ;}
+        .C-L1{margin-left: 80px;margin-top: 1980px;}
+
+        .C-Cabin{margin-top: 2580px;margin-left: -60px;}
+        .Cab-img1{margin-left: -75px;margin-top: 2150px;width: 85%;}
+        .Cab-D{margin-left: -70px;margin-top: 2650px;width: 90%;}
+        .Cab-img2{margin-left: -75px;margin-top: 2900px;width: 85%;}
+        .Cab-100{margin-left: -70px;margin-top: 3300px;}
+        .Cab-We{margin-top: 3370px;margin-left: -70px;width: 90%;}
+        .C-L2{margin-left: 80px;margin-top: 2800px;}
+        .C-L3{margin-left: 85px;margin-top: 3500px;}
+
+        .M-Many{margin-left: 20px;margin-top: 3600px;font-size: 38px;width: 80%;}
+        .M-There{margin-left:20px;margin-top: 3710px;width: 90%;font-size: 20px;}
+        .M-Exp{margin-left: 170px;margin-top: 3850px;}
+
+        .M-img1{margin-left: 30px;margin-top: 4000px;width: 85%;}
+        .M-Single{margin-left: 115px;margin-top: 4470px;}
+        .M-Best{margin-left: 25px;margin-top: 4520px;width: 90%;}
+        .M-Learn1{margin-left: 215px;margin-top: 4610px;}
+        .M-V1{margin-left: 310px;margin-top: 4616px;}
+
+        .M-img2{margin-top: 4700px;margin-left: 30px;width: 85%;}
+        .M-Double{margin-top: 5130px;margin-left: 110px;}
+        .M-Best2{margin-top: 5190px;margin-left: 30px;width: 90%;}
+        .M-Learn2{margin-top: 5320px;margin-left: 225px;}
+        .M-V2{margin-top: 5325px;margin-left: 320px;}
+        
+        .M-img3{margin-left:30px;margin-top:5400px;width: 85%;}
+        .M-Cootage{margin-left: 130px;margin-top: 5800px;}
+        .M-Best3{margin-left: 30px;margin-top: 5860px;width:85% ;}
+        .M-Learn3{margin-left: 180px;margin-top: 5980px;}
+        .M-V3{margin-left: 280px;margin-top: 5987px;}
+
+        .S-Start{margin-left: 10px;margin-top:6550px;font-size: 25px;}
+        .S-How{margin-left: -5px;margin-top: 6590px;width: 100%;font-size: 27px;}
+        .S-you{margin-left: -5px;margin-top: 6650px;width: 93%;font-size: 17px;}
+        .S-Con{margin-left: -5px;margin-top: 6800px;}  
+        .S-Exp{margin-left: 160px;margin-top: 6817px;}
+
+        .S-Choose{margin-left: 10px;margin-top: 6920px;}
+        .S-Check{margin-left: -5px;margin-top: 7000px;}
+        .S-Enjoy{margin-left: 10px;margin-top: 7080px;}
+
+        .H-Hear{margin-left: -69px;margin-top: 6780px;font-size: 27px;width: 100%;}
+        .H-img1{margin-left: 60px;margin-top: 6900px;}
+        .H-Great{width: 90%;margin-top: 7050px;margin-left: -75px;}
+        .H-Kirana{margin-left: 90px;margin-top:7220px ;}
+
+        footer{margin-bottom:-3000px;width: 100%;left: -60px;}
+        .hed-Cootels{margin:30px ;position: absolute;}
+        .F-Your{margin:90px 10px;margin-left: 20px;}
+
+        .hed-Rooms{margin-left:250px;margin-top:40px ;}
+        .Ro1{margin-left: 220px;margin-top: 70px;width: 100%;}
+        .Ro2{margin-left: 220px;margin-top: 110px;width: 100%;}
+        .Ro3{margin-left: 220px;margin-top: 150px;width: 100%;}
+        .Ro4{margin-left: 220px;margin-top: 180px;width: 100%;}
+
+        .Reser{margin-top: 230px;margin-left: 20px;}
+        .Re1{margin-top: 250px;margin-left: 20px;}
+        .Re2{margin-top: 280px;margin-left: 20px;}
+
+        .Cont{margin-left:230px;margin-top:220px;width: 100%;}
+        .C1{margin-left: 220px;margin-top: 250px;width: 100%;}
+        .C2{margin-left: 220px;margin-top: 280px;width: 100%;}
+        .C3{margin-left: 220px;margin-top: 310px;width: 100%;}
+}
+
